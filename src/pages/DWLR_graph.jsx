@@ -1,11 +1,13 @@
 
-import Navbar from "../components/Navbar";
 import { Button } from "@/components/ui/button";
+import Navbar from "../components/Navbar";
 
 function DWLR_graph() {
   const generateReport = () => {
-    fetch("http://localhost:3000/generate_alert_report", {
-      method: "GET", 
+
+
+    fetch("https://jal-vision-server.vercel.app/generate_alert_report", {
+      method: "GET",
     })
       .then((response) => {
         if (!response.ok) {
