@@ -6,7 +6,7 @@ function Navbar() {
             <div className="" onClick={() => { navigate("/") }}>Home</div>
             <div className="" onClick={() => { navigate("/dwlrinfo") }}>Status</div>
             <div className="" onClick={() => { navigate("/alerts") }}>Alerts</div>
-            <div className="" onClick={() => { navigate("dwlr_graph") }}>Reports</div>
+            <div className="" onClick={() => { navigate("/dwlr_graph") }}>Reports</div>
         </nav>
     )
 }

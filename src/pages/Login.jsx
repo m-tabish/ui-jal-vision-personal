@@ -12,8 +12,7 @@ function Login() {
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
-            await signInWithEmailAndPassword(auth, username, password);
-            alert("Login Successful!");
+            await signInWithEmailAndPassword(auth, username, password); 
             navigate("/centralDashboard");
         } catch (error) {
             alert("Login Failed: " + error.message);
@@ -22,7 +21,6 @@ function Login() {
 
     return (
         <div className="w-screen h-screen bg-white overscroll-none overflow-hidden ">
-        <h1>This is personal</h1>
             <div className="bg-[#D1E9F5] w-full h-full flex justify-center items-center ">
                 <div className="w-1/3 mx-auto p-8  rounded-lg shadow-xl bg-white -mt-10">
                     <h1 className="font-bold text-3xl mb-6 text-center text-blue-600">{t("Login")}</h1>
