@@ -34,7 +34,7 @@ function DWLR_graph() {
             <div className="w-2/3 p-8  flex flex-col ">
               <h1 className="text-center text-2xl "></h1>
               <img src="image/image1.jpg" alt="graph 1" className="p-4 w-full" />
-              <img src="image/image2.jpg" alt="graph 2" className="p-4 w-[600px]" />
+             
               <h1 className="text-center text-2xl "></h1>
             </div>
 
