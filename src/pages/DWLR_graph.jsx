@@ -1,12 +1,11 @@
 
 import { Button } from "@/components/ui/button";
-import Navbar from "../components/Navbar";
-
-function DWLR_graph() {
+import Navbar from "../components/Navbar"; 
+function DWLR_graph() { 
   const generateReport = () => {
 
 
-    fetch("http://localhost:3000/generate_alert_report", {
+    fetch("https://jal-vision-server.onrender.com/generate_report", {
       method: "GET",
     })
       .then((response) => {
@@ -29,7 +28,7 @@ function DWLR_graph() {
   return (
     <>
       <Navbar />
-      <div className="bg-[#D1E9F5] w-screen h-screen"> 
+      <div className="bg-[#D1E9F5] w-screen h-screen">
         <div className="h-screen w-screen ">
           <div className="flex h-screen w-screen rounded bg-[#D1E9F5]">
             <div className="w-2/3 p-8  flex flex-col ">
