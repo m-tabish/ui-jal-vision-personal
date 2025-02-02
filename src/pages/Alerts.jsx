@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "@/components/Navbar";
 const AlertTable = () => {
     const navigate = useNavigate();
     // Alert data
@@ -52,8 +52,9 @@ const AlertTable = () => {
     const alerts = generateAlerts();
 
     return (
-        <div>
-            <h2>Alert Table</h2>
+        <div className="w-screen">
+            <Navbar></Navbar>
+            <h2 className="text-4xl font-bold text-center ">Alert Table</h2>
             <table>
                 <thead>
                     <tr>

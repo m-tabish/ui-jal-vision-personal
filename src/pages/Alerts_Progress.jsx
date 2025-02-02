@@ -6,7 +6,7 @@ function Alerts_Progress() {
   // eslint-disable-next-line no-unused-vars
   const navigate = useNavigate();
   return (
-    <div className="bg-white w-screen h-screen">
+    <div className="bg-[#D1E9F5] w-screen h-screen">
       <Navbar />
       <div className="h-screen w-screen bg-[#D1E9F5]">
       <div className="container mx-auto px-4 py-8">

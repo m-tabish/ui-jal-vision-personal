@@ -51,7 +51,7 @@ function Login() {
                                 className="text-blue-600 font-semibold cursor-pointer hover:underline"
                                 onClick={() => navigate("/signup")}
                             >
-                                Sign up
+                                {t("Sign up")}
                             </span>
                         </p>
                     </form>
